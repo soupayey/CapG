@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/action_page.php" method="post">
+ <input type="radio" name="gender" value="Monsieur" checked> Monsieur<br>
+  <input type="radio" name="gender" value="Madame"> Madame<br>
+  <br>
+  <br>
+  Prenom : <input type="text" name="firstname" value="">   <br>
+  Nom :<input type="text" name="lastname" value=""><br>
+  <br>
+  <br>
+  Adresse :<textarea name="adress" form="usrform"></textarea><br>
+   <br>
+  <br>
+  Telephone :<input type="tel" name="usrtel" value=""><br>
+ <br>
+  <br>
+
+Loisirs : <br>
+<input type="checkbox" name="loisirs1" value="Danse">Danse
+<br>
+<input type="checkbox" name="loisirs2" value="Course">Course
+<br>
+<input type="checkbox" name="loisirs3" value="Natation">Natation
+
+<br><br>
+
+
+  <br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+</body>
+</html>
