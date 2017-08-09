@@ -1,0 +1,65 @@
+
+
+{
+	"equipes": [{
+			"name": "Equipe 1",
+			"ville": "NY",
+			"entraineur": "entraineur1",
+			"joueurs": [{
+					"id": "joueur1",
+					"position": "av-droite",
+					"blessure": [{
+						"fracture1": "fracture jambe-g"
+					}, {
+						"fracture2": "fracture jambe - d"
+					}, {
+						"fracture3": "entorse"
+					}]
+				},
+				{
+					"id": "joueur2",
+					"position": "avant-centre",
+					"blessure": [{
+						"fracture1": "fracture jambe-g"
+					}, {
+						"fracture2": "fracture jambe - d"
+					}, {
+						"fracture3": "entorse"
+					}]
+				},
+				{
+					"id": "joueur3",
+					"position": "defenseur",
+					"blessure": [{
+						"fracture1": "fracture jambe-g"
+					}, {
+						"fracture2": "fracture jambe - d"
+					}, {
+						"fracture3": "entorse"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Equipe 2",
+			"ville": "LA",
+			"entraineur": "entraineur2",
+			"joueurs": [{
+					"id": "joueur1",
+					"position": "av-droite",
+					"blessure": "rien"
+				},
+				{
+					"id": "joueur2",
+					"position": "avant-centre",
+					"blessure": "rien"
+				},
+				{
+					"id": "joueur3",
+					"position": "defenseur",
+					"blessure": "rien"
+				}
+			]
+		}
+	]
+}
